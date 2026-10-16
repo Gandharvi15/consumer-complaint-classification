@@ -15,6 +15,7 @@ This project processes raw textual complaints, extracts features using TF-IDF (a
 ## Dataset
 
 * **Source**: Consumer Financial Protection Bureau (CFPB) Complaint Database.
+* **Dataset Link**: https://www.consumerfinance.gov/data-research/consumer-complaints/
 * **Input Features**: `Consumer complaint narrative` (unstructured free-form text).
 * **Target Label**: `Product` (18 financial product categories, e.g., Debt collection, Mortgage, Credit reporting).
 * **Preprocessed Samples**: 367,123 valid complaint records (cleaned of null narratives and duplicates).
