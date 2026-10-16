@@ -1,0 +1,14 @@
+# Data files
+*.csv
+rows.csv
+error_analysis.csv
+
+# Serialized models and transformers (>100MB limit on GitHub)
+*.pkl
+
+# Python virtual environment & cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
