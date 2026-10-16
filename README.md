@@ -41,9 +41,9 @@ Sparse Models (TF-IDF)            Dimensionality Reduction           Dense Model
 - Logistic Regression             (TruncatedSVD, n=300)              - K-Nearest Neighbors
 - SGD Classifier                                                     - XGBoost Classifier
 - Balanced SGD Classifier
+```
 
-
-## Model Performance & Evaluation
+Model Performance & Evaluation
 
 Models were evaluated on a stratified test set of **73,425 samples** using **Macro F1-Score** to account for significant class imbalance across the 18 product categories.
 
